@@ -37,8 +37,6 @@ function App() {
         <Footer value={value} setValue={setValue} selectedIndex={selectedIndex} setSelectedIndex={setSelectedIndex}/>
       </BrowserRouter>
     </ThemeProvider>
-        
-   
   );
 }
 

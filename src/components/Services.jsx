@@ -87,7 +87,7 @@ export default function Services({setValue, setSelectedIndex}){
                                 Complete digital solutions, from investigation to{" "}
                                 <span className={classes.specialText}>celebration</span>
                             </Typography>
-                            <Button component={Link} to="/customsoftware" onClick={() => {setValue(1); setSelectedIndex(0);}} variant='outlined' className={classes.learnButton}>
+                            <Button component={Link} to="/customsoftware" onClick={() => {setValue(1); setSelectedIndex(1);}} variant='outlined' className={classes.learnButton}>
                                 <span style={{marginRight:10}}>Learn More</span>
                                 <ButtonArrow height={10} width={10} fill={theme.palette.common.blue}/>
                             </Button>
