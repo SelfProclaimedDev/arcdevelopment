@@ -260,7 +260,7 @@ export default function LandingPage({setValue, setSelectedIndex}){
                 </Grid>
 
                 <Grid item> {/* ----Information Block----- */}
-                    <Grid container  alignItems="center" style={{height:"80em"}} direction="row" alignItems="center" className={classes.infoBackground}>
+                    <Grid container  alignItems="center" style={{height:"80em"}} direction="row" className={classes.infoBackground}>
                         <Grid item container style={{textAlign: matchesXS ? "center" : "inherit"}} direction= {matchesXS ? "column" : "row"}>
                             <Grid sm item style={{marginLeft:matchesXS ? 0 : matchesSM ? "2em" : "5em"}}>
                                 <Grid container style={{marginBottom: matchesXS ? "10em" : 0}} direction='column'>

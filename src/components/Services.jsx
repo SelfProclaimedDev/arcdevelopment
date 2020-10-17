@@ -47,7 +47,6 @@ export default function Services({setValue, setSelectedIndex}){
     const classes = useStyles();
     const theme = useTheme();
     const matchesSM = useMediaQuery(theme.breakpoints.down("sm"));
-    const matchesXS = useMediaQuery(theme.breakpoints.down("xs")); 
 
     return(
 
