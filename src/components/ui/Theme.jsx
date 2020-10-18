@@ -43,8 +43,9 @@ export default createMuiTheme({
         },
         h4:{
             fontFamily:"Raleway",
-            fontSize:"2.5rem",
-            color:`${arcBlue}`
+            fontSize:"2rem",
+            color:`${arcBlue}`,
+            fontWeight:700
         },  
         estimate:{
 
