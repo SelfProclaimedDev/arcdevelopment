@@ -1,3 +1,4 @@
+import { orange } from '@material-ui/core/colors';
 import { createMuiTheme } from '@material-ui/core/styles';
 
 const arcBlue = "#0B7289";
@@ -69,6 +70,11 @@ export default createMuiTheme({
             color:`${arcGrey}`,
             fontWeight:300
         },
+        caption:{
+            fontSize:"1rem",
+            fontWeight:300,
+            color:arcGrey
+        },
         learnButton:{
             borderColor:arcBlue,
             color:arcBlue,
@@ -77,6 +83,24 @@ export default createMuiTheme({
             borderRadius:50,
             fontFamily:"Roboto",
             fontWeight:"bold"
+        }
+    },
+    overrides:{
+        MuiInputLabel:{
+            root:{
+                color:arcBlue,
+                fontSize:"1rem"
+            }
+        },
+        MuiInput:{
+            underline:{
+                "&:before":{
+                    borderBottom:`2px solid ${arcBlue}`
+                },
+                "&:hover:not($disabled):not($focused):not($error):before":{
+                    borderBottom:`2px solid ${arcBlue}`
+                }
+            }
         }
     }
 })
